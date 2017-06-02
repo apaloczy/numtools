@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
-#
-# Description: Miscellaneous utility functions.
-#
-# Author:      André Palóczy
+# Description: Other numerical tools.
+# Author/date: André Palóczy, February/2017
 # E-mail:      paloczy@gmail.com
 
 __all__ = ['newton']

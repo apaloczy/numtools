@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
-#
-# Description: Numerical tools for calculating integrals.
-#
-# Author:      André Palóczy
+# Description: Tools for numerical integration.
+# Author/date: André Palóczy, February/2017
 # E-mail:      paloczy@gmail.com
 
 __all__ = ['rectangle',

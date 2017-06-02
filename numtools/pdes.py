@@ -1,18 +1,11 @@
-# -*- coding: utf-8 -*-
-#
-# Description: Numerical tools for solving
-#              partial differential equations.
-#
-# Author:      André Palóczy
+# Description: Partial differential equation solvers.
+# Author/date: André Palóczy, February/2017
 # E-mail:      paloczy@gmail.com
 
-__all__ = ['a']
+__all__ = ['pjacobi_poissoneq',
+           'gaussseidel_poissoneq']
 
 import numpy as np
-
-def a():
-    return 1
-
 
 def pjacobi_poissoneq(RHS, phi0, tol=1e-2, max_iter=1e3):
     """

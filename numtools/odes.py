@@ -1,9 +1,5 @@
-# -*- coding: utf-8 -*-
-#
-# Description: Numerical tools for solving
-#              ordinary differential equations.
-#
-# Author:      André Palóczy
+# Description: Ordinary differential equation solvers.
+# Author/date: André Palóczy, February/2017
 # E-mail:      paloczy@gmail.com
 
 __all__ = ['eeuler',
